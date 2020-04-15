@@ -10,6 +10,7 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  image: any
 
 dev_dependencies:
   flutter_test:
@@ -20,6 +21,9 @@ dev_dependencies:
 
 # The following section is specific to Flutter.
 flutter:
+
+  assets:
+    - assets/test/22155338.png
 
   # To add assets to your package, add an assets section, like this:
   # assets:
